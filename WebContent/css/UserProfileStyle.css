@@ -1,0 +1,148 @@
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	list-style:none;
+}
+
+body{
+	background: #f3f3f3;
+}
+
+header{
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+	background-color:#24252A;
+	top:0;
+	left:0;
+	width:100%;
+}
+
+.nav_link li,a{
+	font-weight:400;
+	font-size:18px;
+	text-decoration: none;
+	color:#edf0f1;
+}
+
+.nav_link{
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	padding: 20px 10%;
+	list-style:none;
+	
+}
+
+.nav_link li{
+	cursor:pointer;
+}
+
+.nav_link li a{
+	transition: all 0.3s ease 0s;
+}
+.nav_link li a:hover{
+	color:#0088a9;
+}
+
+
+
+
+.Wrapper{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);	
+	width: 800px;
+	height: 70vh;
+	display:flex;
+	box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+}
+.Wrapper .left{
+	width: 35%;
+	background: linear-gradient(to right, rgb(255, 128, 0),rgb(255, 255, 128));
+	padding: 30px 25px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	text-align:center;
+	color: #fff;
+}
+.Wrapper .left img{
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+.Wrapper .left h4{
+	margin-bottom: 10px;
+}
+
+.Wrapper .left p{
+	font-size:18px;
+	font-weight:bold;
+}
+
+.Wrapper .right{
+	width: 65%;
+	background:#fff;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	padding: 30px 25px;
+}
+.Wrapper .right .info,
+.Wrapper .right .projects,
+.Wrapper .right .storage{
+	margin-bottom:25px;
+}
+
+.Wrapper .right .info h3,
+.Wrapper .right .projects h3{
+	margin-bottom: 15px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #e0e0e0;
+	color: #353c4e;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+.Wrapper .right .info_data,
+.Wrapper .right .projects_data{
+	display: flex;
+	justify-content: space-between;
+}
+
+.Wrapper .right .info_data .data,
+.Wrapper .right .projects_data .data{
+	width: 45%;
+}
+.Wrapper .right .info_data .data h4,
+.Wrapper .right .projects_data .data h4{
+	color: #353c4e;
+	margin-bottom: 5px;
+}
+.Wrapper .right .info_data .data p,
+.Wrapper .right .projects_data .data p{
+	font-size: 18px;
+	margin-bottom:10px;
+	color: #919aa3;
+}
+.fullname{
+	font-size: 40px;
+	line-height: 1.6;
+	font-weight: 600;
+}
+table{
+	width: 100%;
+}
+td{
+	text-align:center;
+}
+td.id{
+	width:10%;
+}
+td.name{
+	width:70%;
+}
+td.download{
+	width:20%;
+}
